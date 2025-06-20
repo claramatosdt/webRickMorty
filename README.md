@@ -31,7 +31,7 @@ npm
 Execute o projeto:
 ng serve
 Abra no navegador:
-Acesse  http://localhost:50472/ para visualizar o projeto.
+Acesse   http://localhost:4200/  para visualizar o projeto.
 
 
 Telas
