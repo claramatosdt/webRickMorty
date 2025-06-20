@@ -9,7 +9,7 @@ O projeto foi desenvolvido para fins acadêmicos, com foco na prática de consum
 ⚙️ Pré-requisitos
 Para executar este projeto, é necessário ter instalado:
 
-✔️ Node.js (versão recomendada: LTS) →
+✔️ Node.js (versão recomendada: LTS) 
 
 ✔️ Angular CLI (instalar com npm install -g @angular/cli)
 
