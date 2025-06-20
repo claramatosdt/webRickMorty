@@ -38,9 +38,9 @@ Telas
 
 ![Tela Inicial](src/telas/tela-inicio.png)
 ![Tela Geral](src/telas/telageral.png)
-![Tela Pesquisa](src/telas/tela-de-pesquisa,png)
+![Tela Pesquisa](src/telas/tela-de-pesquisa.png)
 ![Tela Card](src/telas/tela-card-info.png)
-![Tela Inicio](src/telas/telas-inicio.png)
+![Tela Inicio](src/telas/telas-filtros.png)
 ![Tela Episódios](src/telas/episodios-tela.png)
 
 
