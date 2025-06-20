@@ -1,0 +1,11 @@
+<div class="container">
+  <h1 class="text-center display-1 mb-3">Episodes</h1>
+  <app-search-bar (responseEpisode)="handleReponseSuccess($event)" [currentList]="currentList"></app-search-bar>
+  <div class="container list-container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+           <app-episode-table [nextPage]="nextPage" [prevPage]="prevPage" [episodes]="episodes"></app-episode-table>
+      </div>
+    </div>
+  </div>
+</div>

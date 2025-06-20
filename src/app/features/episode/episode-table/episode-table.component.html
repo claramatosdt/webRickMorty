@@ -1,0 +1,39 @@
+<div class="spinner-container" *ngIf="loading">
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col" class="col-id">ID</th>
+        <th scope="col" class="col-name">Name</th>
+        <th scope="col" class="col-episode">Episode</th>
+        <th scope="col" class="col-date">Air date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ep of episodes">
+        <th scope="row" class="col-id">{{ep.id}}</th>
+        <td class="col-name">{{ep.name}}</td>
+        <td class="col-episode">{{ep.episode}}</td>
+        <td class="col-date">{{ep.air_date}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<nav>
+  <ul class="pagination">
+    <!-- Botão "Previous" -->
+    <li class="page-item">
+      <button class="btn btn-primary" (click)="onPrevPage()" [disabled]="!prevPage" aria-label="Previous">Previous</button>
+    </li>
+    <!-- Botão "Next" -->
+    <li class="page-item">
+      <button class="btn btn-primary" (click)="onNextPage()" [disabled]="!nextPage" aria-label="Next">Next</button>
+    </li>
+  </ul>
+</nav>

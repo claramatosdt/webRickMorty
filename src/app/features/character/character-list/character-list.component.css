@@ -1,0 +1,9 @@
+.list-container{
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 576px){
+  .list-container{
+    width: 70%;
+  }
+}

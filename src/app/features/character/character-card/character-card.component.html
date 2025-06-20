@@ -1,0 +1,11 @@
+<a (click)="navigateToDetails(character)" class="card-link">
+
+  <div class="card shadow h-100">
+    <img [src]="character.image" class="card-img-top img-fluid" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title text-truncate">{{character.name}}</h5>
+      <p class="card-text">{{character.species}}</p>
+    </div>
+  </div>
+
+</a>

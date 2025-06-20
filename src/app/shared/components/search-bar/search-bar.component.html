@@ -1,0 +1,38 @@
+<div class="container">
+  <!-- Spinner -->
+  <div class="spinner-container" *ngIf="isLoading">
+    <div class="spinner-border text-primary spinner-border-lg" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <div class="search-bar row align-items-center justify-content-start m-md-1 m-3">
+
+    <!-- Filter -->
+    <div class="col-md-6 col-12 mt-2">
+      <input type="text" id="text" class="form-control" [(ngModel)]="userInput" placeholder="{{textPlaceholder}}"
+        (keyup)="onFilterChange()">
+    </div>
+
+    <!-- Select Gender -->
+    <div class="col-md-3 col-12 mt-2" *ngIf="currentList === 'Characters'">
+      <select class="form-select" [(ngModel)]="selectedGender" (change)="onFilterChange()">
+        <option value="" default>Gender</option>
+        <option *ngFor="let gender of genders" value="{{gender}}">{{gender | titlecase }}</option>
+      </select>
+    </div>
+
+    <!-- Select Status -->
+    <div class="col-md-3 col-12 mt-2" *ngIf="currentList === 'Characters'">
+      <select class="form-select" [(ngModel)]="selectedStatus" (change)="onFilterChange()">
+        <option value="" default>Status</option>
+        <option *ngFor="let item of status" value="{{item}}">{{item | titlecase }}</option>
+      </select>
+    </div>
+
+  </div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3" role="alert">
+    {{errorMessage}}
+  </div>
+</div>

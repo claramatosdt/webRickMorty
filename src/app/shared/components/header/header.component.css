@@ -1,0 +1,35 @@
+/* header.component.css */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+  color: #00d1b2 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d1b2 !important;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.user-link{
+  text-decoration: none;
+  color: rgb(22, 22, 30);
+}

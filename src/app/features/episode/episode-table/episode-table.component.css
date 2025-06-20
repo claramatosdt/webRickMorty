@@ -1,0 +1,40 @@
+/* Estilos de hover para os botões de navegação */
+.page-item{
+  margin: 4px;
+}
+.page-item .page-link{
+  cursor: pointer;
+  transition: .5s;
+}
+.page-item:hover .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.col-id {
+  width: 10%;
+}
+.col-name {
+  width: 30%;
+}
+.col-episode {
+  width: 30%;
+}
+.col-date {
+  width: 30%;
+}
+
+.spinner-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.544);
+  width: 100%;
+  height: 100%;
+}

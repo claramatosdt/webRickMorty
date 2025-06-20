@@ -1,0 +1,16 @@
+<div class="container card" *ngIf="character">
+  <div>
+    <div class="container-img">
+      <img [src]="character.image" class="img-fluid mb-3" alt="Character Image">
+    </div>
+    <div>
+      <h2>{{character.name}}</h2>
+      <p><span class="fw-bold">Status: </span>{{character.status}}</p>
+      <p><span class="fw-bold">Species: </span>{{character.species}}</p>
+      <p><span class="fw-bold">Gender: </span>{{character.gender}}</p>
+    </div>
+  </div>
+  <div>
+    <button class="btn btn-secondary"(click)="backToList()">Back To List</button>
+  </div>
+</div>
