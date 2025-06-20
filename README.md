@@ -31,17 +31,21 @@ npm
 Execute o projeto:
 ng serve
 Abra no navegador:
-Acesse  http://localhost:50472/ para visualizar o projeto.
+Acesse http://localhost:4200/ para visualizar o projeto.
 
 
 Telas
 
-![Tela Inicial](./tela-inicial.png)
-![Tela Pesquisa](./tela-pesquisa.png)
-![Tela Personagem](./card-info.png)
-![Tela Filtro](./filtro.png)
-![Tela Filtros](./filtro-persoagens.png)
-![Tela Episódios](./tela-episodios.png)
+![Tela Inicial](src/telas/tela-inicio.png)
+![Tela Geral](scr/telas/telageral.png)
+![Tela Pesquisa](scr/telas/tela-de-pesquisa,png)
+![Tela Card](scr/telas/tela-card-info.png)
+![Tela Inicio](scr/telas/telas-inicio.png)
+![Tela Episódios](scr/telas/episodios-tela.png)
+
+
+
+
 
 👩‍💻 Autora
 Nome: Maria Clara Duarte
