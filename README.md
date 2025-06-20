@@ -37,11 +37,11 @@ Acesse http://localhost:4200/ para visualizar o projeto.
 Telas
 
 ![Tela Inicial](src/telas/tela-inicio.png)
-![Tela Geral](scr/telas/telageral.png)
-![Tela Pesquisa](scr/telas/tela-de-pesquisa,png)
-![Tela Card](scr/telas/tela-card-info.png)
-![Tela Inicio](scr/telas/telas-inicio.png)
-![Tela Episódios](scr/telas/episodios-tela.png)
+![Tela Geral](src/telas/telageral.png)
+![Tela Pesquisa](src/telas/tela-de-pesquisa,png)
+![Tela Card](src/telas/tela-card-info.png)
+![Tela Inicio](src/telas/telas-inicio.png)
+![Tela Episódios](src/telas/episodios-tela.png)
 
 
 
